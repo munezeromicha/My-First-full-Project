@@ -1,0 +1,110 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+body{
+	height: 100vh;
+	width: 100%;
+	/* background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(../imagess/back.jpg); */
+	background-size: cover;
+	background-position: center;
+	background-color: #000;
+}
+.box{
+	position: absolute;
+	/* background: #fff; */
+	color: #000;
+	top: 50%;
+	left: 50%;
+	width: 340px;
+	height: 440px;
+	transform: translate(-50%,-50%);
+	padding: 60px 40px;
+	border-radius: 30px;
+	box-shadow: 1px 10px  #888;
+	background: linear-gradient(180deg, #00CED1 63.54%, rgba(0, 206, 209, 0) 85.42%);
+	border: 2px solid #888;
+}
+.main-img{
+	position: absolute;
+	width: 80px;
+	height: 80px;
+	top: -50px;
+	left: calc(50% - 50px);
+	border: 2px solid #00CED1;
+	border-radius: 50%;
+}
+.box h1{
+	text-align: center;
+	font-size: 30px;
+	padding: 0 0 30px;
+	font-weight: 800px;
+}
+.box p{
+	color:#000;
+	font-weight: bold;
+	transition: .4s;
+
+}
+.box input{
+	margin-bottom: 15px;
+	width: 100%;
+}
+.box span{
+	font-size: 15px;
+	font-weight: bold;
+}
+.box input[type="text"],input[type="password"]{
+    border: none;
+    border-bottom: 1px solid #000;
+    outline: none;
+    height: 30px;
+    font-size: 15px;
+	background: linear-gradient(180deg, #00CED1 63.54%, rgba(0, 206, 209, 0) 85.42%);
+}
+.box input[type="submit"],input[type="Reset"]{
+	border: none;
+	height: 45px;
+	background: #000;
+	color: #fff;
+	font-size: 17px;
+	border-radius: 30px;
+	text-transform: capitalize;
+}
+.box input[type="submit"]:hover{
+	opacity: 0.7;
+	transition: 0.5s;
+	cursor: pointer;
+	color: black;
+	background-color: transparent;
+	border: 2px solid black;
+	font-weight: bold;
+}
+
+.box input[type="Reset"]:hover{
+	opacity: 0.7;
+	transition: 0.5s;
+	cursor: pointer;
+	color: black;
+	background-color: transparent;
+	border: 2px solid black;
+	font-weight: bold;
+}
+
+a{
+	display: block;
+	font-size: 15px;
+	color: grey;
+	line-height: 30px;
+	text-decoration: none;
+}
+a:hover{
+	color: #fff;
+	transition: 0.5s;
+}
+h3{
+	text-align: center;
+	color: #fff;
+}
